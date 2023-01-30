@@ -1,0 +1,20 @@
+Request Headers:
+User-Agent - String that lets the servers and network peers identify the application of the requesting user agent.
+Accept - Allows a server to provide specific content types from the same URL
+Cache-Control - Specify browsing caching policies in both client requests and server responses 
+Postman-Token - Authorization Bearer Toekn (Postman in this case)
+Host - Specifies the host and port number of the server to which the request is being sent
+Accept Encoding -  Indicates the content encoding that the client can understand 
+Connection - Indicates whether the network connection stays open after the current transaction finishes 
+Accept Headers:
+Content Type - Indicate what type of media of the resource 
+Vary - Describes the parts of request message aside from the method and URL that influences the content of the response it occurs in
+Content Encoding - Lists any encoding that have been applied to the representation 
+Date - Displays Date 
+Server - Displays Server 
+Cache Control - Specify browsing caching policies in both client requests and server responses
+X-XSS- Protection - stops pages from loading when they detect reflected cross-site scripting (XSS) attacks. 
+X- Frame-Options - allows content publishers to prevent their own content from being used in an invisible frame by attackers. 
+X-Content-Type-Options - a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should be followed and not be changed.
+Alt-Svc - allows a server to indicate that another network location (the "alternative service") can be treated as authoritative for that origin when making future requests. 
+Transfer Encoding - hop-by-hop header, that is applied to a message between two nodes, not to a resource itself.  
